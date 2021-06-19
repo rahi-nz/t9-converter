@@ -17,8 +17,36 @@ export const theme: ITheme = {
 
 const GlobalStyle = createGlobalStyle<IThemeWrapper>`
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #48b8a5;
     margin: 0 auto;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
     color: ${props => props.theme.niceBlack}; 
+  }
+  
+  p {
+     margin: 0;
+  }
+  
+  input {
+     font-family: 'Roboto', sans-serif;
+  }
+  
+  button {
+     font-family: 'Roboto', sans-serif;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+  }
+  
+  input[type=number] {
+     -moz-appearance: textfield;
   }
 `;
 
