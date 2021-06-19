@@ -24,22 +24,25 @@ export const Input = styled.input`
   border-radius: 40px;
   font-size: 18px;
   margin: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   :focus-visible {
     outline: none;
   }
 `;
 
 export const ListContainer = styled.div`
-  display: flex;
-  overflow: scroll;
   min-height: 60px;
 `;
 
 export const Word = styled.div`
-  padding: 10px;
   background: #e0e0e0;
-  margin: 10px;
-  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 6px;
 `;
 
 export const Row = styled.div`

@@ -1,5 +1,6 @@
 import { debounce } from 'lodash';
 import Button from 'components/Button';
+import { FixedSizeList as List } from 'react-window';
 import { useCallback, useState } from 'react';
 import Image from 'next/image';
 import {
@@ -13,6 +14,8 @@ import {
   ClearBtn,
 } from './style';
 import { PHONE_BUTTONS } from './const';
+
+const GUTTER_SIZE = 5;
 
 const KeyPad = () => {
   const [input, setInput] = useState<string>('');
@@ -30,13 +33,16 @@ const KeyPad = () => {
           onlyRealWords: realWord,
           numbers,
         };
-        const response = await fetch('/api/converter', {
+        await fetch('/api/converter', {
           method: 'post',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(requestBody),
-        });
-        const data = await response.json();
-        setWordList(data);
+        })
+          .then(res => res.json())
+          .then(data => setWordList(data))
+          .catch(rejected => {
+            console.warn(rejected);
+          });
       } else {
         setWordList([]);
       }
@@ -61,6 +67,20 @@ const KeyPad = () => {
     }
   };
 
+  const Column = ({ index, style }: any) => (
+    <Word
+      style={{
+        ...style,
+        left: style.left + GUTTER_SIZE,
+        top: style.top + GUTTER_SIZE,
+        width: style.width - GUTTER_SIZE,
+        height: 25,
+      }}
+    >
+      {wordList[index]}
+    </Word>
+  );
+
   return (
     <>
       <Filter>
@@ -76,7 +96,17 @@ const KeyPad = () => {
       <Container>
         <Input type="number" defaultValue={input} disabled />
         <ListContainer>
-          {wordList && wordList.map(el => <Word key={el}>{el}</Word>)}
+          {wordList && (
+            <List
+              height={60}
+              itemCount={wordList.length}
+              itemSize={100}
+              layout="horizontal"
+              width={240}
+            >
+              {Column}
+            </List>
+          )}
         </ListContainer>
         <Row>
           <Image width={30} height={30} src="/icons/plus.svg" alt="kiwi" />

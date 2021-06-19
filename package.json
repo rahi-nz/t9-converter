@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3030",
     "build": "next build",
     "start": "next start"
   },
@@ -13,6 +13,7 @@
     "next": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-window": "^1.8.6",
     "styled-components": "^5.3.0",
     "wordlist-english": "^1.2.1"
   },
