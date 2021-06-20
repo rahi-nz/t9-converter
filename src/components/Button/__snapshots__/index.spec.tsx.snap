@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> Should render correctly 1`] = `
+<button
+  className="style__DialBtn-niwgt9-0 dtWhVz"
+  disabled={false}
+  onClick={[MockFunction]}
+>
+  <div
+    className="style__Title-niwgt9-1 iIrczW"
+  >
+    2
+  </div>
+  <div
+    className="style__Subtitle-niwgt9-2 efnWUX"
+  >
+    abc
+  </div>
+</button>
+`;
