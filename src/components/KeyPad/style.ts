@@ -36,7 +36,9 @@ export const ListContainer = styled.div`
   min-height: 60px;
 `;
 
-export const Word = styled.div`
+export const Word = styled.span.attrs(() => ({
+  'data-test-id': 'suggested',
+}))`
   background: #e0e0e0;
   display: flex;
   justify-content: center;

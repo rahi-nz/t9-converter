@@ -1,7 +1,7 @@
 import { debounce } from 'lodash';
-import Button from 'components/Button';
 import { FixedSizeList as List } from 'react-window';
 import { useCallback, useState } from 'react';
+import { server } from '../../config';
 import Image from 'next/image';
 import {
   Filter,
@@ -13,7 +13,8 @@ import {
   Row,
   ClearBtn,
 } from './style';
-import { PHONE_BUTTONS } from './const';
+import { PHONE_BUTTONS } from './helper';
+import Button from '../Button';
 
 const GUTTER_SIZE = 5;
 
@@ -33,16 +34,12 @@ const KeyPad = () => {
           onlyRealWords: realWord,
           numbers,
         };
-        await fetch('/api/converter', {
+        const response = await fetch(`${server}/api/converter`, {
           method: 'post',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(requestBody),
-        })
-          .then(res => res.json())
-          .then(data => setWordList(data))
-          .catch(rejected => {
-            console.warn(rejected);
-          });
+        }).then(res => res.json());
+        setWordList(response);
       } else {
         setWordList([]);
       }

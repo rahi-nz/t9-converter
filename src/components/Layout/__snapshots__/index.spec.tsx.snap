@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout/> Should render correctly 1`] = `
+<section
+  className="style__Container-ph9pdk-0 hbgMfM"
+>
+  <section
+    className="style__Content-ph9pdk-1 goArNV"
+  >
+    <div />
+  </section>
+</section>
+`;

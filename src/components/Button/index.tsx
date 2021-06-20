@@ -1,6 +1,6 @@
 import { DialBtn, Title, Subtitle } from './style';
 
-interface Props {
+export interface Props {
   handleClick: () => void;
   disabled: boolean;
   title: string;

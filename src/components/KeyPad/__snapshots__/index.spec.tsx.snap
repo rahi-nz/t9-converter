@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyPad/> Should render correctly 1`] = `
+Array [
+  <section
+    className="style__Filter-sc-1pdyef4-0 czjbYD"
+  >
+    <input
+      checked={false}
+      id="realWord"
+      name="realWord"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      htmlFor="realWord"
+    >
+      Show only real words
+    </label>
+  </section>,
+  <section
+    className="style__Container-sc-1pdyef4-1 jmmXFE"
+  >
+    <input
+      className="style__Input-sc-1pdyef4-2 foovYR"
+      defaultValue=""
+      disabled={true}
+      type="number"
+    />
+    <div
+      className="style__ListContainer-sc-1pdyef4-3 kCrRnV"
+    />
+    <div
+      className="style__Row-sc-1pdyef4-5 gwCNqW"
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "margin": 0,
+            "maxWidth": "100%",
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "block",
+              "maxWidth": "100%",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+            style={
+              Object {
+                "border": "none",
+                "display": "block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "padding": 0,
+              }
+            }
+          />
+        </div>
+        <noscript>
+          <img
+            alt="kiwi"
+            decoding="async"
+            src="/icons/plus.svg"
+            srcSet="/_next/image?url=%2Ficons%2Fplus.svg&w=32&q=75 1x, /_next/image?url=%2Ficons%2Fplus.svg&w=64&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+        <img
+          alt="kiwi"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+      <div
+        className="style__ClearBtn-sc-1pdyef4-6"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt="kiwi"
+              decoding="async"
+              onClick={[Function]}
+              src="/icons/clear-icon.svg"
+              srcSet="/_next/image?url=%2Ficons%2Fclear-icon.svg&w=32&q=75 1x, /_next/image?url=%2Ficons%2Fclear-icon.svg&w=64&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt="kiwi"
+            decoding="async"
+            onClick={[Function]}
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <section
+      className="style__KeyPadContainer-sc-1pdyef4-7 kkNFth"
+    >
+      <button
+        className="style__DialBtn-niwgt9-0 hWtKCf"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          1
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          2
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          abc
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          3
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          def
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          4
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          ghi
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          5
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          jkl
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          6
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          mno
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          7
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          pqrs
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          8
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          tuv
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 dtWhVz"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          9
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          wxyz
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 hWtKCf"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          *
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 hWtKCf"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          0
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          
+        </div>
+      </button>
+      <button
+        className="style__DialBtn-niwgt9-0 hWtKCf"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="style__Title-niwgt9-1 iIrczW"
+        >
+          #
+        </div>
+        <div
+          className="style__Subtitle-niwgt9-2 efnWUX"
+        >
+          
+        </div>
+      </button>
+    </section>
+  </section>,
+]
+`;
